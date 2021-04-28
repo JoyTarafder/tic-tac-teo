@@ -38,7 +38,7 @@ function draw(){
             this.classList.add("o");
             Player2.push(Number(this.dataset.index));
             if(che(Player2)){
-                winnerPlayer("Congrats player one you win");
+                winnerPlayer("Congrats player two you win");
             }
         }
         if(count ===  9){
